@@ -1,0 +1,31 @@
+<div class="lsiting-section d-flex justify-content-between">
+    <div>
+        <h2>{{rewardCards.length}} Result Found</h2>
+    </div>
+    <div class="tabs">
+        <button class="tab" [class.active]="sortOrder === 'atoz'" (click)="sortRewards('atoz')">
+            Sort A to Z
+        </button>
+
+        <button class="tab" [class.active]="sortOrder === 'ztoa'" (click)="sortRewards('ztoa')">
+            Sort Z to A
+        </button>
+    </div>
+
+</div>
+<div class="cards-container row mt-2">
+    <div class="card col-3" *ngFor="let card of rewardCards">
+        <img [src]="card.display_img_url || 'https://via.placeholder.com/150'" alt="Reward Image" class="card-img-top">
+        <div class="card-body">
+            <h5 class="card-title text-center">{{ card.name }}</h5>
+            <p class="card-text mt-2 text-center">{{ card.points }} points</p>
+            <p class="card-text" *ngIf="card.quantity > 0 && card.quantity <= card.low_quantity" class="high-demand">On
+                High Demand (Only {{ card.quantity }} left)</p>
+            <div class="out-of-stock-text text-danger" *ngIf="card.quantity === 0">
+                Out of Stock
+            </div>
+            <hr>
+            <p class="card-text text-muted text-center">Valid Until: {{ card.valid_until | date:'dd-MM-yyy' }}</p>
+        </div>
+    </div>
+</div>

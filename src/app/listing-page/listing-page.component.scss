@@ -1,0 +1,81 @@
+.lsiting-section {
+    .tabs {
+        display: flex;
+        gap: 10px;
+    }
+
+    .tab {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        background-color: #f0f0f0;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    .tab.active {
+        background-color: red;
+        color: white;
+    }
+
+    .tab:not(.active) {
+        background-color: grey;
+        color: white;
+    }
+}
+
+.card {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 10px;
+    overflow: hidden;
+
+    &-header {
+        background-color: #f8f9fa;
+        padding: 10px;
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    &-body {
+        padding: 10px;
+    }
+
+    &-img-top {
+        width: 100%;
+        height: auto;
+    }
+
+    &-title {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    &-text {
+        font-size: 1rem;
+        color: #555;
+    }
+
+    .out-of-stock-text {
+        background-color: #c0bebe;
+        width: 120px;
+        padding: 4px;
+        text-align: center;
+        border-radius: 12px;
+
+    }
+
+    .high-demand {
+        color: #ff5722;
+        font-weight: bold;
+    }
+}
+
+.cards-container {
+    gap: 15px;
+}
+
+.cards-container .card {
+    // flex: 1 1 calc(33.333% - 15px);
+    max-width: calc(33.333% - 15px);
+}

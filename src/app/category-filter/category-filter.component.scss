@@ -1,0 +1,20 @@
+.apply-filter-section {
+    .apply-filter-text {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .filter-list {
+        background-color: #ddd7d7;
+        font-size: 15px;
+        font-weight: 500;
+        color: gray;
+        border-radius: 5px;
+        padding: 3px;
+        margin-left: 12px;
+
+        span {
+            cursor: pointer;
+        }
+    }
+}

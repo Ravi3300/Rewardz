@@ -1,0 +1,78 @@
+{
+  "card_data": {
+    "rewardCards": [
+      {
+        "pk": 987,
+        "name": "Reward Name",
+        "points": 150,
+        "display_img_url": "https://rewardz.sg/images/logos/partners/foodpanda.png",
+        "quantity": 14,
+        "valid_until": "2024-12-31T00:00:00",
+        "low_quantity": 10
+      },
+      {
+        "pk": 988,
+        "name": "Demo Reward",
+        "points": 200,
+        "display_img_url": "https://rewardz.sg/images/logos/partners/disneylandhk.png",
+        "quantity": 0,
+        "valid_until": "2024-10-31T00:00:00",
+        "low_quantity": 5
+      },
+      {
+        "pk": 989,
+        "name": "Forest",
+        "points": 250,
+        "display_img_url": "https://rewardz.sg/images/logos/partners/cenpay.png",
+        "quantity": 1,
+        "valid_until": "2024-11-30T00:00:00",
+        "low_quantity": 5
+      },
+      {
+        "pk": 990,
+        "name": "Flipkart Reward",
+        "points": 200,
+        "display_img_url": "https://rewardz.sg/images/logos/clients/unilever.png",
+        "quantity": 3,
+        "valid_until": "2024-10-31T00:00:00",
+        "low_quantity": 5
+      },
+      {
+        "pk": 991,
+        "name": "Myntra Reward",
+        "points": 45,
+        "display_img_url": "https://rewardz.sg/images/logos/clients/rockwool.png",
+        "quantity": 13,
+        "valid_until": "2024-10-31T00:00:00",
+        "low_quantity": 5
+      },
+      {
+        "pk": 992,
+        "name": "HDFC Reward",
+        "points": 234,
+        "display_img_url": "https://rewardz.sg/images/logos/clients/daikin.png",
+        "quantity": 3,
+        "valid_until": "2024-10-31T00:00:00",
+        "low_quantity": 5
+      },
+      {
+        "pk": 993,
+        "name": "icici Reward",
+        "points": 123,
+        "display_img_url": "https://rewardz.sg/images/logos/clients/volvo.png",
+        "quantity": 3,
+        "valid_until": "2024-10-31T00:00:00",
+        "low_quantity": 5
+      },
+      {
+        "pk": 994,
+        "name": "American Bank Reward",
+        "points": 305,
+        "display_img_url": "https://rewardz.sg/images/logos/clients/dbs.jpg",
+        "quantity": 22,
+        "valid_until": "2024-10-31T00:00:00",
+        "low_quantity": 5
+      }
+    ]
+  }
+}
